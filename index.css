@@ -19,8 +19,8 @@
 }
 
 .u-section-1 .u-repeater-1 {
-  grid-template-columns: repeat(3, calc(33.3333% - 14.3333px));
-  min-height: 185,33px;
+  grid-template-columns: repeat(3, calc(33.3333% - 13.3333px));
+  min-height: 556px;
   grid-gap: 20px;
 }
 

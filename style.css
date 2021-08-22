@@ -34077,86 +34077,46 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
 .u-header {
-  background-image: linear-gradient(white, #f2f2f2);
-  min-height: 38px;
+  background-image: none;
+}
+
+.u-header .u-sheet-1 {
+  min-height: 80px;
 }
 
 .u-header .u-menu-1 {
-  font-family: size-14;
-  margin: 2px auto 0 0;
+  margin: 22px auto;
 }
 
 .u-header .u-nav-1 {
   font-size: 1rem;
   letter-spacing: 0px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .u-header .u-nav-2 {
-  font-size: 1rem;
+  box-shadow: 2px 2px 8px 0 rgba(128,128,128,1);
 }
 
-.u-header .u-search-1 {
-  width: 80px;
-  min-height: 29px;
-  margin: -34px calc(((100% - 1140px) / 2) + -68px) 5px auto;
+.u-header .u-nav-3 {
+  font-size: 1.25rem;
 }
 
-.u-header .u-search-icon-1 {
-  height: 16px;
-  background-image: none;
+.u-header .u-nav-4 {
+  box-shadow: 2px 2px 8px 0 rgba(128,128,128,1);
 }
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: 12px;
-    margin-left: calc(((100% - 1140px) / 2) + 20px);
   }
 
   .u-header .u-nav-1 {
-    text-transform: none;
-  }
-
-  .u-header .u-search-1 {
-    width: 123px;
-    height: auto;
-    margin-top: -34px;
-    margin-right: calc(((100% - 1140px) / 2) + 170px);
-    margin-bottom: 35px;
-  }
-
-  .u-header .u-search-icon-1 {
-    width: 16px;
+    font-style: normal;
   }
 }
-@media (max-width: 991px) {
-  .u-header .u-menu-1 {
-    margin-top: 12px;
-    margin-left: calc(((100% - 1140px) / 2) + 130px);
-  }
 
-  .u-header .u-search-1 {
-    margin-right: calc(((100% - 1140px) / 2) + 280px);
-  }
-}
-@media (max-width: 767px) {
-  .u-header .u-menu-1 {
-    margin-left: calc(((100% - 1140px) / 2) + 220px);
-  }
 
-  .u-header .u-search-1 {
-    margin-right: calc(((100% - 1140px) / 2) + 370px);
-  }
-}
-@media (max-width: 575px) {
-  .u-header .u-menu-1 {
-    margin-left: calc(((100% - 1140px) / 2) + 320px);
-  }
 
-  .u-header .u-search-1 {
-    margin-right: calc(((100% - 1140px) / 2) + 470px);
-  }
-}
 .u-footer {
   background-image: none;
 }
