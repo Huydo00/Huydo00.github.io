@@ -1,14 +1,15 @@
 .u-section-1 {
   background-image: none;
+  background-size: cover;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 768px;
+  min-height:inherit;
 }
 
 .u-section-1 .u-text-1 {
   font-size: 1.5rem;
-  width: 180px;
+  width: 250px;
   margin: 1px auto 0;
 }
 
@@ -20,7 +21,7 @@
 
 .u-section-1 .u-repeater-1 {
   grid-template-columns: repeat(3, calc(33.3333% - 13.3333px));
-  min-height: 556px;
+  min-height: 185,33px;
   grid-gap: 20px;
 }
 
@@ -306,4 +307,28 @@
   .u-section-1 .u-repeater-1 {
     grid-template-columns: repeat(1, 100%);
   }
+}
+
+
+.containerr {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  
+}
+.containerr {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
 }
