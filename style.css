@@ -14792,7 +14792,9 @@ div.u-video,
 .u-popupmenu-items {
   min-width: 120px;
 }
-.u-popupmenu-items .u-nav {
+.u-popupmenu-items .
+
+{
   width: 100%;
 }
 .u-popupmenu-items .u-nav-link {
@@ -33904,8 +33906,8 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         ul:not(.u-unstyled)
         {
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         }
         ol
         {
